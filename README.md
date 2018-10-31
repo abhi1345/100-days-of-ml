@@ -2,6 +2,7 @@
 One challenge every day for 100 days
 
 So far:
+
 • Day 1: Linear Regression with Stochastic Gradient Descent
 
 • Day 2: k Nearest Neighbor Classifier + Regressor

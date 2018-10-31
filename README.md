@@ -15,4 +15,6 @@ So far:
 
 • Day 6: Decision Tree for 2-class Classification
 
-• Day 7: Support Vector Machine with Sub-Gradient Descent
+• Day 7: Learning Vector Quantization for binary classification
+
+• Day 8: Support Vector Machine with Sub-Gradient Descent

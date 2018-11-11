@@ -37,7 +37,10 @@ class NaiveBayes:
             p = self.classProbs[cat]
             for word in text:
                 t = (word, cat)
-                p *= self.likelihoods[t]
+                try:
+                    p *= self.likelihoods[t]
+                except KeyError:
+                    p = p / 2
             if p > currp:
                 currp, currcat = p, cat
 

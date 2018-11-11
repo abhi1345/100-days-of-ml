@@ -57,7 +57,6 @@ class SupportVectorMachine:
 model = SupportVectorMachine()
 model.train(dataset, 10)
 tup = (6,2)
-print("The prediction for 6,2 is {}.".format(model.predict(tup)))
 
 testdata = {
 (1, 4) : -1,
@@ -75,4 +74,3 @@ for t in testdata.keys():
 
     div += 1
 
-print("This model has {}% accuracy on the test data.".format(100*acc/div))

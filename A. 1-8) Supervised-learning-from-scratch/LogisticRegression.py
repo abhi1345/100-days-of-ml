@@ -29,12 +29,11 @@ class LogisticRegression:
         return self.sigmoid(self.linear(x1, x2))
 
     def train(self, dataset, alpha, epochs):
-        self.data = dataset
 
         for e in range(epochs):
-            for pair in self.data.keys():
+            for pair in dataset.keys():
                 x1, x2 = pair
-                y = self.data[pair]
+                y = dataset[pair]
                 prediction = self.pdef(x1, x2)
                 self.w1 += alpha*(y-prediction)*prediction*(1-prediction)*x1
                 self.w2 += alpha*(y-prediction)*prediction*(1-prediction)*x2

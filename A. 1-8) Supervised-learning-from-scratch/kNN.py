@@ -1,15 +1,12 @@
 # k Nearest Neighbors Algorithm
 
-dataset = {(1,2):4, (2,5):6, (5,7):10, (1,5):4, (3,5):8}
-dataset2 = {(1,2):1, (2,5):0, (5,7):0, (1,5):1, (3,5):1}
-
 class kNearestNeighbor:
 
     def __init__(self, dataset, k, regBool):
-        self.data = dataset
         self.k = k #Must be less than len(dataset)
         self.n = {}
         self.regression = regBool
+        self.data = dataset
 
     def update(self, p, d):
         if len(self.n) < self.k:
@@ -61,7 +58,7 @@ class kNearestNeighbor:
     def predict(self, inp):
         """Resets neighborlist, allowing multiple predictions with 1 model."""
         self.n = {}
-        for p in dataset.keys():
+        for p in self.data.keys():
             self.update(p, self.dist(p, inp))
 
         if self.regression:
@@ -69,14 +66,3 @@ class kNearestNeighbor:
         else:
             return self.classify(inp)
 
-    def train(self, dataset):
-        return 0
-
-# Uncomment the Below Lines to Test kNN Implementation
-"""
-model = kNearestNeighbor(dataset, 2, True)
-out1 = model.predict((1,2))
-model = kNearestNeighbor(dataset2, 3, False)
-out2 = model.predict((3,4))
-print(out1, out2)
-"""

@@ -1,5 +1,7 @@
 #Linear Discriminant Analysis
+
 from math import log
+
 def mean(l):
     return sum(l)/len(l)
 

@@ -15,4 +15,4 @@ Deep Neural Networks for regression, digit classification, language detection.
 
 4) Language Classification (RNN)
 
-![alt text](https://github.com/abhi1345/100-days-of-ml/blob/master/C.%2015-20)%20Neural%20Networks/language_accuracy.png "Logo Title Text 1")
+![alt text](https://github.com/abhi1345/100-days-of-ml/blob/master/C.%2015-20%29%20Neural%20Networks/language_accuracy.png "Logo Title Text 1" )

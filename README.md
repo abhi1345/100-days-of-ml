@@ -23,8 +23,8 @@ So far:
 
 ## Days 9 - 11: Kaggle (ML Applied to Data Science Challenges)
 
-9. Scikit-Learn Pipelines
+9. Boston House Prices regression challenge
 
-10. Pytorch Neural Nets
+10. Titanic Survivor/Non-survivor prediction challenge
 
-11. Decision Trees
+11. MNIST Handwritten Digit Classification

@@ -3,7 +3,7 @@ One challenge every day for 100 (non-consecutive) days
 
 So far:
 
-Days 1 - 8: Machine Learning from Scratch
+## Days 1 - 8: Machine Learning from Scratch
 
 1. Linear Regression with Stochastic Gradient Descent
 
@@ -21,7 +21,7 @@ Days 1 - 8: Machine Learning from Scratch
 
 8. Support Vector Machine with Sub-Gradient Descent
 
-Days 9 - 11: Kaggle (ML Applied to Data Science Challenges)
+## Days 9 - 11: Kaggle (ML Applied to Data Science Challenges)
 
 9. Scikit-Learn Pipelines
 

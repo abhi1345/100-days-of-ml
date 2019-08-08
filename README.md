@@ -28,3 +28,5 @@ So far:
 10. Titanic Survivor/Non-survivor prediction challenge
 
 11. MNIST Handwritten Digit Classification
+
+## Day 12 - ... Ensembles
